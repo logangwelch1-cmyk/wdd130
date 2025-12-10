@@ -1,0 +1,142 @@
+/* General Page Style */
+body {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #004953, #002d36);
+  color: white;
+}
+
+/* Wrapper */
+#wrapper {
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+  background: #283723;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #283723;
+  color: #FFD700;
+  padding: 20px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+header .logo {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Navigation */
+nav {
+  background: #B22222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+nav a {
+  color: #FFD700;
+  background: #283723;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+nav a:hover,
+nav a:focus {
+  background: #FFD700;
+  color: #B22222;
+  transform: scale(1.1);
+  outline: none;
+}
+
+/* Main */
+main {
+  background-color: #2E8B57;
+  padding: 20px;
+}
+
+main section {
+  background: rgba(255,255,255,0.1);
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #FFD700;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+button {
+  background: #FFD700;
+  color: #283723;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #B22222;
+  color: #FFD700;
+}
+
+/* Footer */
+footer {
+  background-color: #FFD700;
+  text-align: center;
+  padding: 20px;
+  color: #283723;
+  font-weight: bold;
+  font-size: 1em;
+  border-top: 3px solid #B22222;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    width: 60px;
+    height: 60px;
+    font-size: 1em;
+  }
+  header h1 {
+    font-size: 1.2em;
+  }
+}

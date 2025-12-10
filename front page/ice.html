@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logan Welch | ICE Challenges</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo1.png" type="image/png">
+  <style>
+    /* ICE index styles */
+    .ice-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 12px;
+    }
+    .ice-folder {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+    .ice-folder h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.05rem;
+      color: #003087;
+      text-transform: capitalize;
+    }
+    .ice-table { width: 100%; border-collapse: collapse; }
+    .ice-table td { padding: 8px 6px; border-top: 1px solid #f1f1f1; vertical-align: middle; }
+    .ice-table tr:first-of-type td { border-top: none; }
+    .ice-title { font-weight: 600; text-transform: none; }
+    .ice-link a { display:inline-block; background:#003087; color:#fff; padding:6px 10px; border-radius:4px; text-decoration:none; }
+    @media (max-width:700px) { .ice-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="logo1.png" alt="Logan Logo" class="logo">
+      <h1>ICE Challenges</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="wwr.html" target="_blank">WWR</a>
+      <a href="ice.html" target="_blank">ICE</a>
+      <a href="about.html" target="_blank">About Me</a>
+    </nav>
+      <section>
+        <h2>Completed Challenges</h2>
+
+        <div class="ice-grid">
+
+          <div class="ice-folder">
+            <h3>Apostle Spotlight</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Apostles</td>
+                  <td class="ice-link"><a href="../ice/apostle_spotlight/apostles.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Gallery</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Gallery</td>
+                  <td class="ice-link"><a href="../ice/gallery/gallery.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Grid Flags</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Flags</td>
+                  <td class="ice-link"><a href="../ice/grid_flags/flags.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Halloween</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Halloween</td>
+                  <td class="ice-link"><a href="../ice/halloween/index.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Positioning</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Positioning</td>
+                  <td class="ice-link"><a href="../ice/positioning/positioning.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Prophet Cards</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Nelson</td>
+                  <td class="ice-link"><a href="../ice/prophet_cards/nelson.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Signup</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Signup</td>
+                  <td class="ice-link"><a href="../ice/signup/signup.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="ice-folder">
+            <h3>Favorite Devo</h3>
+            <table class="ice-table">
+              <tbody>
+                <tr>
+                  <td class="ice-title">Favorite Devo</td>
+                  <td class="ice-link"><a href="../ice/favorite_devo/favdevo.html" target="_blank">View</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2>Submit Feedback</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" placeholder="Your comments about ICE activities..."></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Logan Welch | ICE Challenges | WDD130</p>
+    </footer>
+  </div>
+</body>
+</html>
